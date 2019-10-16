@@ -5,8 +5,6 @@ eureka:
     serviceUrl:
       #defaultZone: http://eurekahost:8010/eureka/
       defaultzone:  http://eurekahost:8011/eureka/,http://eurekahost:8012/eureka/,http://eurekahost:8013/eureka/
-server:
-  port: ${PORT:${SERVER_PORT:0}}
 ---
 spring:
   profiles: subject
